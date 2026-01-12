@@ -1,0 +1,16 @@
+{
+  "short_name": "MedAlert Clinic",
+  "name": "MedAlert Clinic",
+  "icons": [
+    {
+      "src": "favicon.png",
+      "sizes": "96x96",
+      "type": "image/png",
+      "density": "2.0"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}

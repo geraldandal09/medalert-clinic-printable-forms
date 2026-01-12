@@ -1,0 +1,16 @@
+{
+    "templates": [
+        {
+            "name": "PrescriptionTemplate",
+            "label": "Prescription"
+        },
+        {
+            "name": "DoctorReferralTemplate",
+            "label": "Doctor Referral"
+        },
+        {
+            "name": "LabRequestTemplate",
+            "label": "Lab Request"
+        }
+    ]
+}
