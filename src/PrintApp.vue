@@ -2,26 +2,27 @@
   <div id="app">
     <component
       v-if="printOptions.template"
-      v-bind:is="printOptions.template"
+      :is="printOptions.template"
     />
+    <p v-else>No template found</p>
   </div>
 </template>
 
-<!-- Initialization Script -->
 <script>
-import './assets/style.css'
-import 'paper-css/paper.min.css'
+import { mapState } from "vuex";
+import "./assets/style.css";
+import "paper-css/paper.min.css";
 
 export default {
-  name: 'PrintApp',
-}
+  name: "PrintApp",
+  computed: {
+    ...mapState(["printOptions"]),
+  },
+};
 </script>
 
-<!-- Default styling for the PrintApp -->
 <style>
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
 </style>

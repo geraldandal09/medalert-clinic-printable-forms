@@ -1,16 +1,20 @@
 {
-    "templates": [
-        {
-            "name": "PrescriptionTemplate",
-            "label": "Prescription"
-        },
-        {
-            "name": "DoctorReferralTemplate",
-            "label": "Doctor Referral"
-        },
-        {
-            "name": "LabRequestTemplate",
-            "label": "Lab Request"
-        }
-    ]
+  "templates": [
+    {
+      "name": "CardioClearanceTemplate",
+      "label": "Cardio Clearance"
+    },
+    {
+      "name": "DoctorReferralTemplate",
+      "label": "Doctor Referral"
+    },
+    {
+      "name": "MedicalCertificateTemplate",
+      "label": "Medical Certificate"
+    },
+    {
+      "name": "PrescriptionTemplate",
+      "label": "Prescription"
+    }
+  ]
 }

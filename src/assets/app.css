@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #f5f5f5;
+}
+
+.print-layout {
+  background: white;
+  width: 210mm;
+  min-height: 297mm;
+  margin: auto;
+  padding: 20mm;
+  box-sizing: border-box;
+}
+
+.no-print {
+  margin-bottom: 20px;
+}
+
+@media print {
+  body {
+    background: white;
+  }
+
+  .no-print {
+    display: none;
+  }
+}
